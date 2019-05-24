@@ -46,7 +46,7 @@
 	
 	//var modals = document.querySelectorAll('.modal');
 	
-	for(var f = 0; i < modals.length; f++){
+	for(var f = 0; f < modals.length; f++){
 		modals[f].addEventListener('click', function(event){
 			event.stopPropagation();
 		});
