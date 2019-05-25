@@ -34,7 +34,7 @@
 	
 	var closeButtons = document.querySelectorAll('.close');
 	
-	for(var e = 0; i < closeButtons.length; e++){
+	for(var e = 0; e < closeButtons.length; e++){
 		closeButtons[e].addEventListener('click', hideModal);
 	}
 
